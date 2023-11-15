@@ -35,18 +35,8 @@ void main()
 {
 int usetc[n],i=0,j=0;
 clrscr();
-printf("SET A:");
-for(i=0;i<n;i++)
-{
-printf(" %d ",seta[i]);
-i++ ;
-}
-printf("SET B:");
-for(i=0;i<n;i++)
-{
-printf(" %d ",setb[i]);
-i++ ;
-}
+
+
 //union operation
 while(i<n)
 {
